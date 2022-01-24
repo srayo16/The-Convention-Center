@@ -62,7 +62,13 @@ position: relative;
 top: -10px;
 left: 225px;
 }
-@media only screen and (max-width:420px) {
+.position-toast{
+    position: absolute;
+    right: 300px;
+    top: 725px;
+}
+
+@media only screen and (max-width:500px) {
     .box-issue{
         background: #3F87F5;
     box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25) !important;
@@ -70,8 +76,16 @@ left: 225px;
     width: 350px !important;
     margin-left: 5%;
 }
+.position-toast{
+    position: absolute;
+    right: 8px;
+    top: 430px;
 }
-@media only screen and (min-width: 421px) and (max-width:820px ) {
+
+
+
+}
+@media only screen and (min-width: 501px) and (max-width:970px ) {
     .box-issue{
         background: #3F87F5;
     box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25) !important;
@@ -80,7 +94,16 @@ left: 225px;
 
 
     }
-    
+    .position-toast{
+        position: absolute;
+        right: 60px;
+        top: 550px;
+}
+.for-resp{
+
+font-size: 15px
+
+}   
 }
 
-/* second section end  */
+/* second section end */
