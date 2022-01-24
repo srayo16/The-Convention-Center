@@ -2,6 +2,11 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.header-color{
+    color: #3E3E3E !important;
+    ;
+}
+
 .btn-color{
     color: #3F87F5 !important;
 }
@@ -16,4 +21,66 @@ body{
     /* first section end */
 
     /* second section */
+
+    .font-color {
+        color: #322877 !important;
+    ;
+}
+
+.text-color{
+ background: #ffffff;
+ border-radius: 100%;
+ border-width: 100%;
+ 
+ color: #3f62ff ;
+}
+.pakage-color{
+    color: #0A0826;
+}
+.box-issue{
+    background: #3F87F5;
+box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25) !important;
+border-radius: 26px;
+
+
+}
+.badge-issue{
+    background: #FF4E4E;
+border-radius: 13.5px;
+Width: 46px;
+Height:27px;
+font-weight: 900;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+letter-spacing: 0.833333px;
+
+color: #FFFFFF;
+
+text-align: center;
+position: relative;
+top: -10px;
+left: 225px;
+}
+@media only screen and (max-width:420px) {
+    .box-issue{
+        background: #3F87F5;
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25) !important;
+    border-radius: 26px;
+    width: 350px !important;
+    margin-left: 5%;
+}
+}
+@media only screen and (min-width: 421px) and (max-width:820px ) {
+    .box-issue{
+        background: #3F87F5;
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25) !important;
+    border-radius: 26px;
+    width: 350px !important;
+
+
+    }
     
+}
+
+/* second section end  */
